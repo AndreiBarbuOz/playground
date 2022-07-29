@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/distribution/distribution/v3 v3.0.0-20220620080156-3e4f8a0ab147
 	github.com/google/go-containerregistry v0.10.0
-	github.com/phayes/freeport v0.0.0-20220201140144-74d24b5ae9f5
+	github.com/sirupsen/logrus v1.8.1
 	golang.org/x/crypto v0.0.0-20220622213112-05595931fe9d
 )
 
@@ -41,7 +41,6 @@ require (
 	github.com/prometheus/client_model v0.2.0 // indirect
 	github.com/prometheus/common v0.32.1 // indirect
 	github.com/prometheus/procfs v0.7.3 // indirect
-	github.com/sirupsen/logrus v1.8.1 // indirect
 	github.com/spf13/cobra v1.4.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/vbatts/tar-split v0.11.2 // indirect

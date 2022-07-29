@@ -1,0 +1,66 @@
+{
+  "graph": [
+    {
+      "name": "platform",
+      "dependencies": [
+        "objectstore",
+        "cache"
+      ]
+    },
+    {
+      "name": "orchestrator",
+      "dependencies": [
+        "objectstore",
+        "cache",
+        "smbdriver"
+      ]
+    },
+    {
+      "name": "testmanager",
+      "dependencies": [
+        "objectstore"
+      ]
+    },
+    {
+      "name": "dataservice",
+      "dependencies": [
+        "objectstore"
+      ]
+    },
+    {
+      "name": "apps",
+      "dependencies": [
+        "objectstore"
+      ]
+    },
+    {
+      "name": "aicenter",
+      "dependencies": [
+        "objectstore",
+        "queuestore"
+      ]
+    },
+    {
+      "name": "documentunderstanding",
+      "dependencies": [
+        "objectstore",
+        "cache",
+        "aicenter"
+      ]
+    },
+    {
+      "name": "taskmining",
+      "dependencies": [
+        "objectstore",
+        "queuestore"
+      ]
+    },
+    {
+      "name": "processmining",
+      "dependencies": [
+        "objectstore",
+        "queuestore"
+      ]
+    }
+  ]
+}
