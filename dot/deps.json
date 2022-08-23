@@ -12,7 +12,8 @@
       "dependencies": [
         "objectstore",
         "cache",
-        "smbdriver"
+        "smbdriver",
+        "platform"
       ]
     },
     {
@@ -52,7 +53,8 @@
       "name": "taskmining",
       "dependencies": [
         "objectstore",
-        "queuestore"
+        "queuestore",
+        "aicenter"
       ]
     },
     {
